@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+
+{% block title %}Asylum - Guides{% endblock %}
+
+{% block content %}
+
+<h1 class="center">Guides</h1>
+
+<div class="center">
+    <p class="p80 center-self">
+        This is where you can find guides to help you with the projects. They probably won't be posted for at least a few days after a project is released 
+        so if you want and are able to help out, feel free to make a guide and 
+        submit a pull request to <a href="https://github.com/Person20020/asylum-website" class="double-underline">this website's repository</a>.
+    </p>
+</div>
+
+<h2 class="center">Guides for current projects</h2>
+
+<ul class="guide-list" id="guide-list">
+    <li>
+        <div class="guide-card">
+            <a href="/guides/nfc-keychain" class="double-underline"><h3 class="center">NFC Keychain</h3></a>
+            <p>Deadline: Jan 12th, 2025</p>
+            <img src="https://fakeimg.pl/400x300" alt="placeholder" class="center">
+            <p>
+                Take advantage of HQ's AMS by designing your very own MULTICOLOR 3D printed keychain! Dsign a print with an embeded NFC sticker, and get it mailed straight to you!
+            </p>
+        </div>
+    </li>
+</ul>
+
+
+{% endblock %}

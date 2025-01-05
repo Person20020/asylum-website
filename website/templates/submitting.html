@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+
+{% block title %}Asylum - Submitting{% endblock %}
+
+{% block content %}
+
+<h1 class="center">Submitting</h1>
+
+<p class="p80 center-self">
+    Because these YSWS are kind of informal and pretty fast-paced, submissions and requirements will vary between projects. 
+    The specific requirements for each project will be listed in the project's guide page and most likely also in it's GitHub readme file. 
+    To submit your project, you will need to fork the Asylum repository, add your project to a new folder in the folder for that project, and then create a pull request. 
+</p>
+    <br>
+    <strong class="center-self"><p>Some general requirements for all projects are:</p></strong>
+    <ul class="p60 center-self">
+        <li class="list-gap10">A readme file. It should include some general information about your project and depending on the project sometimes also a bill of materials.</li>
+        <li class="list-gap10">An image of your project (this can be in your readme) We want to see what you have made!</li>
+    </ul>
+    <br>
+    <strong class="p100 center-self center"><p>Some other things to keep in mind:</p></strong>
+    <ul class="p60 center-self">
+        <li class="list-gap10">
+            Make sure not to modify anything other than the folder that you create for your project. 
+            The way that git works can cause changes to the same file from different pull requests to cause conflicts which will make it take longer to review.
+        </li>
+        <li class="list-gap10">
+            Try to give your project a unique name. If there are multiple projects with the same name, it can cause the folders to be merged and generally act unpredictably. 
+            This include variations of the name that only have a difference of capitalization. 
+            GitHub itself can handle folders and files with the same name but different capitalization, but when reviewers pull down the repository to their computers the folders are often merged causing probjems.
+        </li>
+        <li class="list-gap10">
+            Try not to use spaces in your file names. Spaces in file names can cause problems when using a terminal to navigate your project and are generally irritating to work with.
+        </li>
+        <li class="list-gap10">
+            Try to keep your folder organized. If it is a project that has a pcb, firmware, and a case, maybe give each of those their own folder. 
+            Everyone wants their projects reveiwed as quikly as possible and the best way to get that to happen is to make it easy for the reviewers.
+        </li>
+    </ul>
+</p>
+
+{% endblock %}

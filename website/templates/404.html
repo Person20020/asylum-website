@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+
+{% block title %}Asylum - 404{% endblock %}
+
+{% block content %}
+
+<div class="center">
+    <img src="{{ url_for('static', filename='asylum.png') }}" alt="ASYLUM" height="128">
+</div>
+<h1 class="center">404 Not Found</h1>
+<h2 class="center">The page '/{{ path }}' could not be found.</h2>
+
+{% endblock %}
