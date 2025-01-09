@@ -53,3 +53,7 @@ def nfc_keychain_guide():
 @app.route('/<path:undefined_path>')
 def catch_all(undefined_path):
     return render_template('404.html', path=undefined_path), 404
+
+
+if __name__ == "__main__":
+    app.run()

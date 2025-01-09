@@ -57,8 +57,39 @@ a.double-underline:hover {
 }
 
 
+/* Font */
+body, main, h1, h2, h3, p, a, ul, li, div {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+
 /* Getting Started */
 
+
+/* Archive */
+.archive-list {
+    list-style-type: none;
+    margin: 0px;
+}
+#archive-list-current li {
+    display: flex;
+    justify-content: center;
+}
+.archive-card {
+    border-color: #424242;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    width: 33%;
+    max-height: 50%;
+    margin: 25px;
+    padding: 10px;
+    text-align: center;
+}
+.archive-card img {
+    width: 85%;
+}
 
 
 /* Guide */
@@ -66,7 +97,7 @@ a.double-underline:hover {
     list-style-type: none;
     margin: 0px;
 }
-#guide-list li {
+#guide-list-current li {
     display: flex;
     justify-content: center;
 }
